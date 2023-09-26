@@ -44,14 +44,14 @@ header nav ul li a:hover {
 }
 
 /* Main */
-main div {
+main .inner {
     background: #fff0de;
     width: auto;
     margin: 50px auto;
 }
 
 /* Footer */
-footer div {
+footer {
     background: #fff0de;
     width: auto;
     height: 100px;
