@@ -49,6 +49,9 @@ main .inner {
     width: auto;
     margin: 50px auto;
 }
+main .title {
+    text-align: center;
+}
 
 /* Footer */
 footer {
