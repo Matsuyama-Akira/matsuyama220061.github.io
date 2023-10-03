@@ -46,16 +46,30 @@ header nav ul li a:hover {
 /* Main */
 main .inner {
     background: #fff0de;
+    position: relative;
     width: auto;
+    height: 500px;
     margin: 50px auto;
 }
 main .title {
+    background: #6252B7;
     text-align: center;
+}
+main .contents {
+    background: #3585b7;
+    display: inline-block;
+    height: 400px;
+}
+main .text {
+    width: 500px;
+}
+main .image {
+    left: 10px;
+    width: 240px;
 }
 
 /* Footer */
 footer {
     background: #fff0de;
-    width: auto;
     height: 100px;
 }
