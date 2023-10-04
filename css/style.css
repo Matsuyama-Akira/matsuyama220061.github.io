@@ -46,26 +46,40 @@ header nav ul li a:hover {
 /* Main */
 main .inner {
     background: #fff0de;
-    position: relative;
     width: auto;
     height: 500px;
     margin: 50px auto;
 }
 main .title {
     background: #6252B7;
+    width: auto;
     text-align: center;
 }
+main section {
+    display: flex;
+    margin-top: 10px;
+}
+main section:first-child {
+    flex-direction: row-reverse;
+}
+main section div {
+    padding: 0 40px 0 0;
+}
+main section:first-child div {
+    padding: 0 0 0 40px;
+}
+
 main .contents {
     background: #3585b7;
-    display: inline-block;
+    display: flex;
     height: 400px;
 }
 main .text {
-    width: 500px;
+    margin: 0 0 15px;
 }
-main .image {
+main p.image {
     left: 10px;
-    width: 240px;
+    width: 200px;
 }
 
 /* Footer */
