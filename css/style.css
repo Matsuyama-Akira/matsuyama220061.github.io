@@ -21,6 +21,7 @@ a:hover {
 /* Header*/
 header {
     display: flex;
+    background: #fff0de;
 }
 header nav {
     margin: 0 0 0 auto;
@@ -47,43 +48,73 @@ header nav ul li a:hover {
 main .inner {
     background: #fff0de;
     width: auto;
-    height: 500px;
     margin: 50px auto;
 }
-main .title {
-    background: #6252B7;
-    width: auto;
-    text-align: center;
-}
-main section {
-    display: flex;
-    margin-top: 10px;
-}
-main section:first-child {
-    flex-direction: row-reverse;
-}
-main section div {
-    padding: 0 40px 0 0;
-}
-main section:first-child div {
-    padding: 0 0 0 40px;
-}
-
-main .contents {
-    background: #3585b7;
-    display: flex;
-    height: 400px;
-}
-main .text {
-    margin: 0 0 15px;
-}
-main p.image {
-    left: 10px;
-    width: 200px;
+main img.toTop {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Footer */
 footer {
     background: #fff0de;
-    height: 100px;
 }
+footer nav {
+    margin: 0 0 0 auto;
+}
+footer nav ul {
+    list-style-type: none;
+    margin: 20px 0;
+    padding: 0;
+    display: flex;
+}
+footer nav ul li a,
+footer nav ul li a:link,
+footer nav ul li a:visited{
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #000;
+}
+footer nav ul li a:hover {
+    color: #888;
+}
+
+/* home */
+
+
+/* about */
+.about main p.image {
+    left: 10px;
+    width: 20%;
+}
+.about main section {
+    display: flex;
+    margin-top: 10px;
+}
+.about main section div {
+    background: #3585b7;
+    float: right;
+    width: 70%;
+    margin: 10px 10px 10px auto;
+}
+.about main section h5.prof {
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+.about main section h5 dd {
+    width: 80%;
+    font-size: 13px;
+}
+.about main section h5 dt {
+    float: left;
+    display: block;
+    width: 20%;
+    font-weight: bold;
+}
+
+/* works */
+
+
+/* contact */
