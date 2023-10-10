@@ -48,7 +48,7 @@ header nav ul li a:hover {
 main .inner {
     background: #fff0de;
     width: auto;
-    margin: 50px auto;
+    margin: 20px auto;
 }
 main img.toTop {
     display: block;
@@ -82,7 +82,9 @@ footer nav ul li a:hover {
 }
 
 /* home */
-
+.home main div div .title{
+    text-align: center;
+}
 
 /* about */
 .about main p.image {
@@ -115,6 +117,16 @@ footer nav ul li a:hover {
 }
 
 /* works */
-
+.works main section {
+    background: #6252B7;
+}
+.works main section div.title {
+    background: #555;
+    text-align: center;
+}
+.works main section div.contents {
+    display: flex;
+    background: #3585b7;
+}
 
 /* contact */
