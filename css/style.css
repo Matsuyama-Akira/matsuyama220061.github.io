@@ -117,7 +117,7 @@ footer nav ul li a:hover {
     position: relative;
 }
 .home main div section .slide-show img {
-    animation: show 16s infinite;
+    animation: show 36s infinite;
     max-width: 100%;
     height: auto;
     opacity: 0;
@@ -146,16 +146,28 @@ footer nav ul li a:hover {
     position: relative;
 }
 .home main div section .slide-show img:nth-of-type(2) {
-    animation-delay: 0s;
-}
-.home main div section .slide-show img:nth-of-type(3) {
     animation-delay: 4s;
 }
-.home main div section .slide-show img:nth-of-type(4) {
+.home main div section .slide-show img:nth-of-type(3) {
     animation-delay: 8s;
 }
-.home main div section .slide-show img:nth-of-type(5) {
+.home main div section .slide-show img:nth-of-type(4) {
     animation-delay: 12s;
+}
+.home main div section .slide-show img:nth-of-type(5) {
+    animation-delay: 16s;
+}
+.home main div section .slide-show img:nth-of-type(6) {
+    animation-delay: 20s;
+}
+.home main div section .slide-show img:nth-of-type(7) {
+    animation-delay: 24s;
+}
+.home main div section .slide-show img:nth-of-type(8) {
+    animation-delay: 28s;
+}
+.home main div section .slide-show img:nth-of-type(9) {
+    animation-delay: 32s;
 }
 
 /* about */
