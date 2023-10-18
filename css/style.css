@@ -171,32 +171,48 @@ footer nav ul li a:hover {
 }
 
 /* about */
+.about main section.contbox {
+    margin: 0, 40px;
+}
+.about main div h2.title {
+    margin: 0 0 70px 0;
+    font-size: 46px;
+    text-align: left;
+    line-height: 1.0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    letter-spacing: 0.05em;
+}
+.about main p.txtbox {
+    margin-bottom: 50px;
+    font-size: 12px;
+}
 .about main p.image {
     left: 10px;
     width: 20%;
 }
-.about main section {
+.about main div section div{
     display: flex;
     margin-top: 10px;
 }
-.about main section div {
-    background: #3585b7;
+.about main div section div div {
+    background:#fff0de;
     float: right;
     width: 70%;
     margin: 10px 10px 10px auto;
 }
-.about main section h5.prof {
+.about main h5.prof {
     margin-bottom: 20px;
     font-size: 13px;
 }
-.about main section h5 dd {
-    width: 80%;
+.about main h5.prof dd {
+    width: 70%;
     font-size: 13px;
 }
-.about main section h5 dt {
+.about main h5.prof dt {
     float: left;
     display: block;
-    width: 20%;
+    width: 30%;
     font-weight: bold;
 }
 
