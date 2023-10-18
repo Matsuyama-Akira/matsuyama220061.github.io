@@ -190,19 +190,26 @@ footer nav ul li a.now {
     margin-bottom: 50px;
     font-size: 12px;
 }
-.about main p.image {
-    left: 10px;
-    width: 20%;
+.about main .imgface {
+    margin-bottom: 40px;
+    text-align: center;
 }
-.about main div.fbox {
-    display: flex;
-    margin-top: 10px;
-}
-.about main div.myprof {
-    background:#fff0de;
-    float: right;
-    width: 70%;
-    margin: 10px 10px 10px auto;
+@media only screen and (min-width: 760px) {
+    .about main .faceLeft {
+        float: left;
+        width: 20%;
+        text-align: left;
+    }
+    .about main .fbox {
+        display: flex;
+        margin-top: 10px;
+    }
+    .about main div.myprof {
+        background: #fff0de;
+        float: right;
+        width: 70%;
+        margin: 10px 10px 10px auto;
+    }
 }
 .about main dl.cf {
     zoom: 1;
