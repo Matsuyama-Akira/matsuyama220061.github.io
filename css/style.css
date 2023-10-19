@@ -22,6 +22,7 @@ a:hover {
 header {
     display: flex;
     background: #fff0de;
+    margin-bottom: 30px;
 }
 header nav {
     margin: 0 0 0 auto;
@@ -49,6 +50,41 @@ main .inner {
     background: #fff0de;
     width: auto;
     margin: 20px auto;
+}
+main h1.title {
+    margin-bottom: 25px;
+    text-align: center;
+    line-height: 1.0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    letter-spacing: 0.05em;
+}
+main .cf {
+    zoom: 1;
+}
+main .contbox {
+    margin: 0 20px;
+}
+@media only screen and (min-width: 760px){
+    main h1.title.large {
+        margin: 0 0 70px 0;
+        font-size: 46px;
+        text-align: left;
+    }
+    main .contbox {
+        margin: 0 40px;
+    }
+}
+@media only screen and (min-width: 961px){
+    main .inner {
+        max-width: 960px;
+        padding: 0;
+        margin: auto;
+    }
+    main .contbox {
+        margin: 0;
+    }
 }
 main img.toTop {
     display: block;
@@ -82,41 +118,36 @@ footer nav ul li a.now {
 }
 
 /* home */
-.home main div section{
-    display: flex;
+.home main #worklist {
+    margin-bottom: 30px;
 }
-.home main div section.title{
-    justify-content: center;
+.home main #worklist li {
+    margin-bottom: 60px;
+}
+.home main h3.title {
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: lighter;
     text-align: center;
+    line-height: 1.5;
 }
-.home main div section ul {
-    list-style-type: none;
-    float: left;
-    width: 30%;
-    height: 6%;
-    padding: 0;
-    display: flex;
-    position: relative;
-}
-.home main div section ul li a,
-.home main div section ul li a:link
-.home main div section ul li a:visited{
-    font-size: 3vw;
-    display: block;
+.home main ul li a,
+.home main ul li a:link
+.home main ul li a:visited{
+    text-align: center;
     text-decoration: none;
     color: #000;
 }
-.home main div section ul li a:hover {
+.home main ul li a:hover {
     color: #888;
 }
-.home main div section div.slide-show {
+.home main .slide-show {
     width: 640px;
     width: 70%;
-    float: right;
     margin: 10px auto;
     position: relative;
 }
-.home main div section .slide-show img {
+.home main .slide-show img {
     animation: show 36s infinite;
     max-width: 100%;
     height: auto;
@@ -142,49 +173,37 @@ footer nav ul li a.now {
         opacity: 0
     }
 }
-.home main div section .slide-show img:nth-of-type(1) {
+.home main .slide-show img:nth-of-type(1) {
     position: relative;
 }
-.home main div section .slide-show img:nth-of-type(2) {
+.home main .slide-show img:nth-of-type(2) {
     animation-delay: 4s;
 }
-.home main div section .slide-show img:nth-of-type(3) {
+.home main .slide-show img:nth-of-type(3) {
     animation-delay: 8s;
 }
-.home main div section .slide-show img:nth-of-type(4) {
+.home main .slide-show img:nth-of-type(4) {
     animation-delay: 12s;
 }
-.home main div section .slide-show img:nth-of-type(5) {
+.home main .slide-show img:nth-of-type(5) {
     animation-delay: 16s;
 }
-.home main div section .slide-show img:nth-of-type(6) {
+.home main .slide-show img:nth-of-type(6) {
     animation-delay: 20s;
 }
-.home main div section .slide-show img:nth-of-type(7) {
+.home main .slide-show img:nth-of-type(7) {
     animation-delay: 24s;
 }
-.home main div section .slide-show img:nth-of-type(8) {
+.home main .slide-show img:nth-of-type(8) {
     animation-delay: 28s;
 }
-.home main div section .slide-show img:nth-of-type(9) {
+.home main .slide-show img:nth-of-type(9) {
     animation-delay: 32s;
 }
 
 /* about */
 .about div {
     display: block;
-}
-.about main section.contbox {
-    margin: 0 40px;
-}
-.about main h2.title {
-    margin: 0 0 70px 0;
-    font-size: 46px;
-    text-align: left;
-    line-height: 1.0;
-    font-family: 'Lato', sans-serif;
-    font-weight: 100;
-    letter-spacing: 0.05em;
 }
 .about main p.txtbox {
     margin-bottom: 50px;
@@ -211,9 +230,6 @@ footer nav ul li a.now {
         margin: 10px 10px 10px auto;
     }
 }
-.about main dl.cf {
-    zoom: 1;
-}
 .about main dl.prof {
     margin-bottom: 20px;
     font-size: 13px;
@@ -238,16 +254,51 @@ footer nav ul li a.now {
 }
 
 /* works */
-.works main section {
-    background: #6252B7;
+.works main #worklist {
+    margin-bottom: 30px;
 }
-.works main section div.title {
-    background: #555;
-    text-align: center;
+.works main #worklist li {
+    margin-bottom: 60px;
 }
-.works main section div.contents {
-    display: flex;
-    background: #3585b7;
+.works main h3.title {
+    margin-bottom: 15px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 1.5;
 }
-
+.works main #worklist .skill {
+    margin-bottom: 5px;
+    font-size: 10px;
+}
+.works main #worklist .contents {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.works main #worklist .period {
+    margin-bottom: 20px;
+    font-size: 10px;
+}
+.works main iframe {
+    margin: 0 auto 20px auto;
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+@media only screen and (min-width: 760px){
+    .works main #worklist {
+        margin-bottom: 50px;
+        font-size: 15px;
+    }
+    .works main #worklist li {
+        margin-bottom: 120px;
+    }
+    .works main h3.title {
+        font-size: 15px;
+    }
+}
+@media only screen and (min-width: 961px){
+    .works main #worklist li {
+        margin-bottom: 160px;
+    }
+}
 /* contact */
