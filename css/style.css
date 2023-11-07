@@ -1,5 +1,6 @@
 @charset "UTF-8";
 html {
+    background: #fff0de;
     scroll-behavior: smooth;
 }
 /* body */
@@ -302,7 +303,7 @@ footer nav ul li a.now {
     font-weight: bold;
 }
 .about main dl.prof dd {
-    width: 80%;
+    width: 90%;
 }
 .about main h2.name {
     display: block;
